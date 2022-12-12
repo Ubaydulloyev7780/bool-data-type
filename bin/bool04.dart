@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool funksiya(int a){
+    return a<0;
+}
 
-void main() {}
+void main() {
+    print(funksiya(5));
+}
